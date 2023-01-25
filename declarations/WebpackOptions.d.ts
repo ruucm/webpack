@@ -2917,6 +2917,10 @@ export interface HttpUriOptions {
 	 * When set, resources of existing lockfile entries will be fetched and entries will be upgraded when resource content has changed.
 	 */
 	upgrade?: boolean;
+	/**
+	 * Option to track versions of Framer modules.
+	 */
+	keepVersions?: boolean;
 }
 /**
  * Parser options for javascript modules.
