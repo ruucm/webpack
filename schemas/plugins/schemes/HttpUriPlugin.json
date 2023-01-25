@@ -24,6 +24,10 @@
           "description": "When set, anything that would lead to a modification of the lockfile or any resource content, will result in an error.",
           "type": "boolean"
         },
+        "keepVersions": {
+          "description": "Option to track versions of Framer modules.",
+          "type": "boolean"
+        },
         "lockfileLocation": {
           "description": "Location of the lockfile.",
           "type": "string",
